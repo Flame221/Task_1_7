@@ -4,19 +4,35 @@ package com.yourname;
 public class Main3 {
     public static void main(String[] args) {
         int s = 0;
+        int z;
         for (int num = 1; num <= 50000; num++) {
-            if (num % 10 == 2) {
+            z = num;
+            if (z % 10 == 2) {
                 s++;
+            } else {
+                z /= 10;
             }
-            if (num % 100 == 2) {
+
+            if (z % 10 == 2) {
                 s++;
+            } else {
+                z /= 10;
             }
-            if (num % 1000 == 2) {
+            if (z % 10 == 2) {
                 s++;
+            } else {
+                z /= 10;
             }
-            if (num % 10000 == 2) {
+            if (z % 10 == 2) {
                 s++;
+            } else {
+                z /= 10;
             }
+            if (z % 10 == 2) {
+                s++;
+            } else {
+                z /= 10;}
+
         }
         System.out.println("Нужно заменить " + s + " таблиц");
 

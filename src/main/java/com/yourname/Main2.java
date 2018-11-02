@@ -19,10 +19,6 @@ public class Main2 {
                 i *= f;
             }
             System.out.println("Факториал вашего числа равен " + i);
-
-
         }
-
-
     }
 }

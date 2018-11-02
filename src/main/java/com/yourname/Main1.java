@@ -9,12 +9,12 @@ public class Main1 {
         float n;
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextFloat();
-        for (int i = 2; i < Math.sqrt(n); i++) {
+        double f = Math.sqrt(n);
+        for (int i = 2; i < f; i++) {
             if (n % i == 0) {
                 System.out.println("Это число не является простым");
                 return;
             }
-
         }
         System.out.println("Это число является простым");
     }

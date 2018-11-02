@@ -5,11 +5,9 @@ public class Main4 {
         //Программа 2
 
         {
-            int i = 0;
-            int n = 1;
+            int i = 2;
             while (i < 10000) {
-                n *= 2;
-                i = 2 * n - 1 - 1;
+                i = 2 * i - 1;
                 if (i < 10000) {
                     System.out.println(i);
                 }
