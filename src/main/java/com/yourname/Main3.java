@@ -34,11 +34,8 @@ public class Main3 {
             }
             if (z % 10 == 2) {
                 s++;
-            } 
-
+            }
         }
         System.out.println("Нужно заменить " + s + " таблиц");
-
-
     }
 }
