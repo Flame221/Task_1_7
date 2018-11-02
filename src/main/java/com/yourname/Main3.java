@@ -30,8 +30,7 @@ public class Main3 {
             }
             if (z % 10 == 2) {
                 s++;
-            } else {
-                z /= 10;}
+            } 
 
         }
         System.out.println("Нужно заменить " + s + " таблиц");
