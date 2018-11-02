@@ -9,22 +9,26 @@ public class Main3 {
             z = num;
             if (z % 10 == 2) {
                 s++;
+                continue;
             } else {
                 z /= 10;
             }
 
             if (z % 10 == 2) {
                 s++;
+                continue;
             } else {
                 z /= 10;
             }
             if (z % 10 == 2) {
                 s++;
+                continue;
             } else {
                 z /= 10;
             }
             if (z % 10 == 2) {
                 s++;
+                continue;
             } else {
                 z /= 10;
             }
