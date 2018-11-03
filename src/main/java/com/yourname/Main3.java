@@ -7,7 +7,7 @@ public class Main3 {
         int z;
         for (int num = 1; num <= 50000; num++) {
             z = num;
-            while (z >= 10) {
+            while (z > 0) {
                 if (z % 10 == 2) {
                     s++;
                     break;
